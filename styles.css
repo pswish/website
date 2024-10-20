@@ -20,6 +20,10 @@ header {
     padding: 1rem;
     border-radius: 5px;
 }
+.logo {
+    max-height: 50px; /* Adjust as needed */
+    margin-right: 20px; /* Space between logo and other header content */
+}
 
 h1 {
     margin-bottom: 0;
