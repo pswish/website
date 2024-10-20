@@ -20,9 +20,19 @@ header {
     padding: 1rem;
     border-radius: 5px;
 }
+
 .logo {
-    max-height: 50px; /* Adjust as needed */
-    margin-right: 20px; /* Space between logo and other header content */
+    max-height: 50px;
+    /* Adjust the height of the logo */
+    margin-right: 20px;
+    /* Space between logo and text */
+}
+
+.header-text {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    /* Stacks the title and subtitle vertically */
 }
 
 h1 {
