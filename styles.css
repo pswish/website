@@ -19,6 +19,7 @@ header {
     text-align: center;
     padding: 1rem;
     border-radius: 5px;
+    align-items: center;
 }
 
 .logo {
@@ -26,6 +27,12 @@ header {
     /* Adjust the height of the logo */
     margin-right: 20px;
     /* Space between logo and text */
+}
+
+.logo-name-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
 }
 
 .header-text {
@@ -37,6 +44,7 @@ header {
 
 h1 {
     margin-bottom: 0;
+    align-items: center;
 }
 
 .subtitle {
