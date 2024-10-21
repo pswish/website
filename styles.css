@@ -8,49 +8,37 @@ body {
     background-color: #f4f4f4;
 }
 
-box {
-    flex: 1;
-    margin: 0 auto
-}
-
 header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
     background-color: #7301b1;
     color: #ecf0f1;
-    text-align: center;
-    padding: 1rem;
     border-radius: 5px;
+}
+
+.header-main {
+    display: flex;
     align-items: center;
+    justify-content: center;
+    width: 100%;
 }
 
 .logo {
     max-height: 50px;
-    /* Adjust the height of the logo */
     margin-right: 20px;
-    /* Space between logo and text */
-}
-
-.logo-name-container {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-}
-
-.header-text {
-    display: flex;
-    flex-direction: column;
-    padding: 2rem;
-    /* Stacks the title and subtitle vertically */
 }
 
 h1 {
-    margin-bottom: 0;
-    align-items: center;
+    margin: 0;
 }
 
 .subtitle {
-    font-style: italic;
     margin-top: 0.5rem;
+    font-style: italic;
 }
+
 
 section {
     background-color: #d6cece;
